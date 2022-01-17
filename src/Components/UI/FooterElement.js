@@ -1,8 +1,8 @@
 import "./Content.css"
 export function FooterElement(){
-    return (<ul className="footerelement">
+    return (<div className="footerelement">
 
-        <li className="LinkList">
+        <ul className="LinkList">
             <h5>Albums</h5>
             <li><a href="/">English</a></li>
             <li><a href="/">Hindi</a></li>
@@ -14,6 +14,6 @@ export function FooterElement(){
             <li><a href="/">Harayanvi</a></li>
             <li><a href="/" style={{color:'red'}}>View all</a></li>
 
-        </li>
-    </ul>  );  
+        </ul>
+    </div>  );  
 }

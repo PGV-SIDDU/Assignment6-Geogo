@@ -5,9 +5,11 @@
 .Searchinput{
     width:450px;
     height:30px;
+    border-radius: 50px;
 }
 .Searchinput:hover{
     width:600px;
+    border-radius: 0;
 }
 form{
     display: flex;

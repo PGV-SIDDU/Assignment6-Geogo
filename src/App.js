@@ -1,12 +1,13 @@
 import './App.css';
 import {Fragment} from "react";
-import Navbar  from "./Components/Navbar";
-import Content from './Components/UI/Content';
+import { Route } from 'react-router-dom';
+import Landingpage from './pages/Landingpage';
 function App() {
   return (
     <Fragment>
-      <Navbar/>
-      <Content></Content>
+      <Route path='/' exact>
+        <Landingpage/>
+      </Route>
     </Fragment>
   );
 }
